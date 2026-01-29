@@ -1,0 +1,51 @@
+    <!-- SIGNATURE DISHES -->
+    <section id="projects-section">
+      <h2 class="section-title text-center">Signature Dishes</h2>
+      <div class="grid-cols-3">
+        <ul>
+          <li
+            class="flex-row"
+            style="justify-content: space-between; align-items: start"
+          >
+            <h3>Chilli Mussels</h3>
+            <div class="tags-box">
+              <span>Spicy</span>
+              <span>Shareable</span>
+            </div>
+          </li>
+
+          <li
+            class="flex-row"
+            style="justify-content: space-between; align-items: start"
+          >
+            <h3>Grilled Octopus</h3>
+            <div class="tags-box">
+              <span>Charred</span>
+              <span>Mediterranean</span>
+            </div>
+          </li>
+
+          <li
+            class="flex-row"
+            style="justify-content: space-between; align-items: start"
+          >
+            <h3>Lobster Mornay Roll</h3>
+            <div class="tags-box">
+              <span>Rich</span>
+              <span>Indulgent</span>
+            </div>
+          </li>
+
+          <li
+            class="flex-row"
+            style="justify-content: space-between; align-items: start"
+          >
+            <h3>Fresh Oysters</h3>
+            <div class="tags-box">
+              <span>Natural</span>
+              <span>Mornay</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>

@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kraken Seafood Kitchen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo" data-field="logo">
+          <img src="./assets/images/logo.png" alt="Kraken" />
+        </div>
+
+        <button
+          class="mobile-menu-btn"
+          onclick="toggleMenu()"
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+
+        <ul id="nav-menu" data-content="navigation">
+          <li><a href="#about-section">Our Story</a></li>
+          <li><a href="#services-section">Menu</a></li>
+          <li><a href="#cta-section">Reserve</a></li>
+          <li><a href="#contact">Visit Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero-section" data-content="hero">
+      <div class="underlay"></div>
+
+      <div class="container">
+        <h1 class="text-center stroked-text">
+          Seafood Worth Crossing Town For.
+        </h1>
+
+        <p class="text-center">
+          Fresh catches. Honest cooking. A place to slow down and share.
+          <span class="italic">From the ocean to your table.</span>
+        </p>
+
+        <div class="cta-box">
+          <a href="#projects-section" class="pill-button primary">View Menu</a>
+          <a href="#cta-section" class="pill-button secondary"
+            >Reserve a Table</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about-section" data-content="about">
+      <h2 class="section-title text-center">Our Story</h2>
+      <div class="grid-cols-2">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+          alt="Fishing boat and fresh seafood"
+        />
+
+        <div class="flex-col">
+          <p>
+            We believe great seafood starts with respect — for the ocean, the
+            catch, and the people around the table.
+          </p>
+
+          <p>
+            Working closely with local fishermen and suppliers, we serve seafood
+            at its freshest, prepared simply and thoughtfully.
+          </p>
+
+          <p>
+            Whether it’s a quick lunch or a long evening with friends, our goal
+            is the same: honest food and a warm welcome.
+          </p>
+        </div>
+      </div>
+
+      <div class="tags-box">
+        <span class="tag">Fresh Daily Catch</span>
+        <span class="tag">Local Suppliers</span>
+        <span class="tag">Cooked to Order</span>
+        <span class="tag">Shared Plates</span>
+      </div>
+    </section>
+
+    <!-- SERVICES / MENU -->
+    <section id="services-section" data-content="services">
+      <h2 class="section-title text-center">What We Serve</h2>
+      <div class="flex-col" style="max-width: 1000px">
+        <div class="service-item flex-row space-2">
+          <img
+            src="https://images.unsplash.com/photo-1553621042-f6e147245754"
+            class="service-icon"
+            alt="Fresh seafood"
+          />
+          <div>
+            <h3>Fresh Seafood</h3>
+            <p>Daily-sourced fish, shellfish, and ocean classics</p>
+          </div>
+        </div>
+
+        <div class="service-item flex-row space-2">
+          <img
+            src="https://images.unsplash.com/photo-1551183053-bf91a1d81141"
+            class="service-icon"
+            alt="Grilled seafood"
+          />
+          <div>
+            <h3>Grilled & Crispy</h3>
+            <p>Battered, crumbed, or flame-grilled to perfection</p>
+          </div>
+        </div>
+
+        <div class="service-item flex-row space-2">
+          <img
+            src="https://images.unsplash.com/photo-1470337458703-46ad1756a187"
+            class="service-icon"
+            alt="Wine and seafood"
+          />
+          <div>
+            <h3>Wine & Pairings</h3>
+            <p>Carefully selected wines and drinks to match every dish</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu" class="menu-section">
+      <h2 class="section-title text-center">Menu</h2>
+      <div class="grid-cols-3">
+        <!-- FROM THE FRYER -->
+        <div class="menu-group">
+          <div class="title-wrap flex-row space-1">
+            <img src="./assets/images/menu/calamari.jpg" alt="fried seafood" />
+            <h3>From the Fryer</h3>
+          </div>
+
+          <!-- items -->
+          <div class="flex-row between-start">
+            <div>
+              <h4>Fish & Chips</h4>
+              <div>
+                <span>beer battered</span>
+                <span>golden chips</span>
+                <span>tartare</span>
+              </div>
+            </div>
+            <h4 class="price">18 $</h4>
+          </div>
+
+          <div class="flex-row between-start">
+            <div>
+              <h4>Grilled Fish</h4>
+              <div>
+                <span>fresh catch</span>
+                <span>lemon</span>
+                <span>herbs</span>
+              </div>
+            </div>
+            <h4 class="price">22 $</h4>
+          </div>
+        </div>
+
+        <!-- SEAFOOD PACKS -->
+        <div class="menu-group">
+          <div class="title-wrap flex-row space-1">
+            <img src="./assets/images/menu/fish.jpg" alt="seafood packs" />
+            <h3>Seafood Packs</h3>
+          </div>
+
+          <div class="flex-row between-start">
+            <div>
+              <h4>Fish Pack</h4>
+              <div>
+                <span>fish</span>
+                <span>chips</span>
+              </div>
+            </div>
+            <h4 class="price">15 $</h4>
+          </div>
+
+          <div class="flex-row between-start">
+            <div>
+              <h4>Family Pack</h4>
+              <div>
+                <span>mixed seafood</span>
+                <span>chips</span>
+              </div>
+            </div>
+            <h4 class="price">35 $</h4>
+          </div>
+        </div>
+
+        <!-- PLATTERS -->
+        <div class="menu-group">
+          <div class="title-wrap flex-row space-1">
+            <img src="./assets/images/menu/platter.jpg" alt="seafood platter" />
+            <h3>Platters</h3>
+          </div>
+
+          <div class="flex-row between-start">
+            <div>
+              <h4>Seafood Platter (For Two)</h4>
+              <div>
+                <span>prawns</span>
+                <span>fish</span>
+                <span>oysters</span>
+              </div>
+            </div>
+            <h4 class="price">55 $</h4>
+          </div>
+        </div>
+        <!-- SHELLFISH -->
+        <div class="menu-group">
+          <div class="title-wrap flex-row space-1">
+            <img src="./assets/images/menu/mussils.jpg" alt="mussels" />
+            <h3>Shellfish</h3>
+          </div>
+          <div class="flex-row between-start">
+            <div>
+              <h4>Chilli Mussels</h4>
+              <div>
+                <span>tomato</span>
+                <span>chilli</span>
+                <span>garlic</span>
+              </div>
+            </div>
+            <h4 class="price">24 $</h4>
+          </div>
+        </div>
+
+        <!-- EXTRAS -->
+        <div class="menu-group">
+          <div class="title-wrap flex-row space-1">
+            <img src="./assets/images/menu/shell.jpg" alt="seafood extras" />
+            <h3>Extras</h3>
+          </div>
+
+          <div class="flex-row between-start">
+            <div>
+              <h4>Extra Fish</h4>
+              <div>
+                <span>fresh fillet</span>
+              </div>
+            </div>
+            <h4 class="price">50 $</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta-section">
+      <video autoplay muted loop id="myVideo">
+        <source
+          src="./assets/video/7244294-uhd_4096_2160_25fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="content">
+        <h2 class="section-title text-center">Join Us by the Sea</h2>
+        <p class="text-center">
+          Book a table, order takeaway, or drop in —
+          <span class="italic">we’ll take care of the rest.</span>
+        </p>
+
+        <a class="pill-button primary" href="tel:0895208646">
+          Reserve a Table
+        </a>
+      </div>
+    </section>
+    <!-- CONTACT / VISIT -->
+    <section id="contact">
+      <h2 class="section-title text-center">Visit Us</h2>
+
+      <div class="grid-cols-3">
+        <iframe
+          class="span-2"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.500118888804!2d-94.16146672472647!3d36.175618902658854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c96edbd258e78f%3A0x11aacdd43a6429ac!2sKraken%20Killer%20Seafood!5e1!3m2!1sen!2stn!4v1769070326579!5m2!1sen!2stn"
+          width="100%"
+          height="100%"
+          style="border-radius: 16px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div>
+          <p>
+            <strong class="sub-title">Address</strong><br />27/271 Amherst Road,
+            Canning Vale
+          </p>
+          <p>
+            <strong class="sub-title">Hours</strong><br />
+            Mon–Fri: 4pm–9pm<br />
+            Sat–Sun: 11:30am–9pm
+          </p>
+          <p>
+            <strong class="sub-title">Phone</strong><br />
+            <a href="tel:0895208646">08 9520 8646</a>
+          </p>
+          <div class="cta-box">
+            <a class="pill-button primary" href="tel:0895208646">
+              Reserve a Table
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Kraken Seafood Kitchen</p>
+    </footer>
+  </body>
+</html>

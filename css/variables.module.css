@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "restaurant";
+  src: url(../assets/fonts/restaurant.otf);
+}
+
+:root {
+  --restaurant: "restaurant";
+
+  --font-sans-default:
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-primary: rgb(180, 180, 237);
+  --color-accent: #fb440c;
+  --color-text: #020356;
+  --color-bg: rgb(244, 242, 231);
+  --border-radius: 20px;
+  --border-pill: 999px;
+  --font-family-sans: var(--font-sans-default);
+  --font-family-serif: var(--restaurant);
+  --space-1: 1rem;
+  --space-2: 2rem;
+  --space-3: 3rem;
+  --space-4: 4rem;
+  --space-5: 5rem;
+  --space-6: 6rem;
+  --base-font-size: 12px;
+  --transition-ease: all 0.3s ease-in-out;
+  --hero-background: none;
+}
